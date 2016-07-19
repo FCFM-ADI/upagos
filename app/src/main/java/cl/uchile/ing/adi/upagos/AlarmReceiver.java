@@ -5,10 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 
 public class AlarmReceiver extends BroadcastReceiver {
-
-    @Override
-    public void onReceive(Context context, Intent intent) {
-        new checkBanco(context).execute();
+    @Override public void onReceive(Context context, Intent intent) {
+        new Checkbanco(context).execute(false);
     }
-
 }

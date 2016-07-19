@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">U-Pagos</string>
+
+
+    <string name="hint_rut">RUT sin digito verificador</string>
+    <string name="hint_dv">DV</string>
+    <string name="got_change">Algo cambió en la página del banco</string>
+    <string name="installed">¡U-Pagos Instalado!</string>
+    <string name="reinstalled">Actualizamos el RUT</string>
+
+    <string name="last_check">Último chequeo:</string>
+    <string name="last_found">Último cambio:</string>
+    <string name="no_last_check">No he realizado chequeos</string>
+    <string name="no_last_found">No he encontrado cambios</string>
+    <string name="bad_rut">El rut ingresado no es válido</string>
+
+    <string name="button_verify">Ver pagos</string>
+    <string name="button_register">Registrar RUT</string>
+
+    <string name="msg_alert_bank_customer">El banco indica que el rut %1$s es cliente. En ese caso tienes que contactarte con ellos y activar el depósito automático de Vales Vista en tu cuenta.</string>
+    <string name="msg_customer_visit_bank">Saber más sobre abono automático de Vales Vista</string>
+    <string name="registered_explanation">Tu rut esta registrado. Desde ahora tu teléfono revisara 2 veces al día si hay cambios en la web del banco. Si los hay, te generaremos una notificación.</string>
 </resources>
